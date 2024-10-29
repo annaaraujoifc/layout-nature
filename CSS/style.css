@@ -1,0 +1,75 @@
+/*FORMATAÇÃO GERAL*/
+
+html {
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(12px + 0.390625vw);
+
+}
+
+a {
+
+    color: white;
+    text-decoration: none;
+}
+
+/*FORMATAÇÃO DO TOPO*/
+
+header {
+
+    background-color: #3B8686;
+    padding: 20px 15vw 20px 15vw;
+
+}
+
+header nav {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header nav ul {
+
+    display: flex;
+
+}
+
+header nav ul li {
+
+    margin: 0 60px 0 0;
+}
+
+header nav li:last-child {
+
+    margin-right: 0;
+
+}
+
+.atual {
+
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 10px 5px 10px;
+    border-radius: 17px;
+}
+
+nav .atual:hover {
+
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+section.banner {
+
+    background: linear-gradient(rgba(121,189,154,0.2) , rgba(121,189,154,0.2)) , url(../images/back-banner.png)no-repeat center center ;
+    padding: 20vw 15vw 8vw 15vw;
+    background-size: 100% auto;
+}
+
+h2 {
+
+    color: white;
+    font-size: 3rem;
+    width: 35%;
+    background-color: rgba(59, 134, 134, 50%);
+    
+}
